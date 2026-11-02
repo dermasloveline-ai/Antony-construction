@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anthony Construction SARL - Parpaings et hourdis à Bafoussam</title>
+<meta name="description" content="Vente de parpaings de 12, 15, 20 et hourdis à Bafoussam, Ouest Cameroun. Prix sur demande. Appelez le 675 45 63 23.">
+<style>
+:root{--gris:#2b2f33;--gris-clair:#f3f4f5;--orange:#ff7a00;--blanc:#ffffff}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--gris);line-height:1.6}
+header{background:var(--gris);position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:10px 5%}
+header nav a{color:var(--blanc);text-decoration:none;margin-left:20px;font-weight:bold}
+header nav a:hover{color:var(--orange)}
+.hero{background:linear-gradient(rgba(43,47,51,.75),rgba(43,47,51,.75)),url('photo1.jpg') center/cover;color:var(--blanc);text-align:center;padding:100px 5%}
+.hero h1{font-size:2.4rem;margin-bottom:15px}
+.hero p{font-size:1.2rem;margin-bottom:25px}
+.btn{display:inline-block;background:var(--orange);color:var(--blanc);padding:14px 28px;border-radius:6px;text-decoration:none;font-weight:bold;margin:5px}
+.btn:hover{background:#e06c00}
+.btn.vert{background:#25d366}
+section{padding:60px 5%}
+section h2{text-align:center;font-size:2rem;margin-bottom:10px}
+section h2::after{content:'';display:block;width:70px;height:4px;background:var(--orange);margin:10px auto 30px}
+.produits{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.carte{background:var(--gris-clair);border-radius:10px;padding:25px;text-align:center;border-bottom:5px solid var(--orange)}
+.carte h3{margin-bottom:8px}
+.prix{color:var(--orange);font-weight:bold;margin-top:10px}
+.galerie{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+.galerie img{width:100%;height:240px;object-fit:cover;border-radius:10px}
+.gris{background:var(--gris-clair)}
+.atouts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;text-align:center}
+.atouts div{padding:20px}
+.contact{background:var(--gris);color:var(--blanc);text-align:center}
+.contact a.tel{color:var(--orange);font-size:1.8rem;font-weight:bold;text-decoration:none}
+footer{background:#1d2023;color:#aaa;text-align:center;padding:20px;font-size:.9rem}
+.flottant{position:fixed;bottom:20px;right:20px;background:#25d366;color:#fff;padding:14px 18px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 4px 10px rgba(0,0,0,.3);z-index:20}
+@media(max-width:600px){.hero h1{font-size:1.7rem}header nav a{margin-left:10px;font-size:.9rem}}
+</style>
+</head>
+<body>
+
+<header>
+<a href="#" aria-label="Anthony Construction SARL">
+<svg width="260" height="60" viewBox="0 0 260 60" xmlns="http://www.w3.org/2000/svg">
+<rect x="2" y="8" width="46" height="44" rx="4" fill="#ff7a00"/>
+<rect x="9" y="16" width="14" height="28" rx="2" fill="#2b2f33"/>
+<rect x="27" y="16" width="14" height="28" rx="2" fill="#2b2f33"/>
+<text x="58" y="28" font-family="Arial" font-weight="bold" font-size="18" fill="#ffffff">ANTHONY</text>
+<text x="58" y="48" font-family="Arial" font-weight="bold" font-size="14" fill="#ff7a00">CONSTRUCTION SARL</text>
+</svg>
+</a>
+<nav>
+<a href="#produits">Produits</a>
+<a href="#galerie">Photos</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>Parpaings solides pour vos constructions à Bafoussam</h1>
+<p>Parpaings de 12, 15 et 20, et hourdis. Qualité et livraison fiables.</p>
+<a class="btn" href="tel:+237675456323">Appeler maintenant</a>
+<a class="btn vert" href="https://wa.me/237675456323?text=Bonjour%2C%20je%20souhaite%20un%20devis%20pour%20des%20parpaings.">Demander un devis sur WhatsApp</a>
+</div>
+
+<section id="produits">
+<h2>Nos produits</h2>
+<div class="produits">
+<div class="carte"><h3>Parpaing de 12</h3><p>Idéal pour les cloisons et murs intérieurs.</p><p class="prix">Prix sur demande</p></div>
+<div class="carte"><h3>Parpaing de 15</h3><p>Le choix courant pour les murs porteurs et les clôtures.</p><p class="prix">Prix sur demande</p></div>
+<div class="carte"><h3>Parpaing de 20</h3><p>Pour les murs épais et les fondations.</p><p class="prix">Prix sur demande</p></div>
+<div class="carte"><h3>Hourdis</h3><p>Pour vos planchers et dalles.</p><p class="prix">Prix sur demande</p></div>
+</div>
+</section>
+
+<section id="galerie" class="gris">
+<h2>Notre stock</h2>
+<div class="galerie">
+<img src="photo1.jpg" alt="Piles de parpaings en stock à Bafoussam">
+<img src="photo2.jpg" alt="Parpaings creux empilés">
+<img src="photo3.jpg" alt="Parpaings de différentes tailles">
+<img src="photo4.jpg" alt="Grand stock de parpaings">
+<img src="photo5.jpg" alt="Parpaings prêts à la vente">
+<img src="photo6.jpg" alt="Parpaings et hourdis disponibles">
+</div>
+</section>
+
+<section>
+<h2>Pourquoi nous choisir</h2>
+<div class="atouts">
+<div><h3>Stock important</h3><p>Des milliers de blocs disponibles en permanence.</p></div>
+<div><h3>Plusieurs tailles</h3><p>12, 15, 20 et hourdis selon votre chantier.</p></div>
+<div><h3>Devis rapide</h3><p>Réponse immédiate par appel ou WhatsApp.</p></div>
+<div><h3>À Bafoussam</h3><p>Proche de vous, dans l'Ouest du Cameroun.</p></div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2 style="color:#fff">Contactez-nous</h2>
+<p>Anthony Construction SARL - Bafoussam, Ouest Cameroun</p>
+<p style="margin:15px 0"><a class="tel" href="tel:+237675456323">675 45 63 23</a></p>
+<a class="btn" href="tel:+237675456323">Appeler</a>
+<a class="btn vert" href="https://wa.me/237675456323">WhatsApp</a>
+</section>
+
+<footer>© 2026 Anthony Construction SARL - Bafoussam, Cameroun. Tous droits réservés.</footer>
+
+<a class="flottant" href="https://wa.me/237675456323">WhatsApp</a>
+
+</body>
+</html>
